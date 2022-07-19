@@ -1,12 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-import {Button} from 'components/Button';
+import ButtonPrincipal from 'components/Button/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavScrollExample from 'components/NavBar/NavBar';
+
 
 function App() {
   return (
-    <Button />
-         
+    <div>
+      <NavScrollExample />
+      
+      <ButtonPrincipal />
+  
+    
+    </div>
   );
 }
+
+
+
 
 export default App;
