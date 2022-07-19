@@ -1,9 +1,21 @@
-import React from "react";
+import {React,Fragment} from "react";
+import Button from 'react-bootstrap/Button';
+import './Button.css';
 
+export default function ButtonPrincipal () {
 
+    return (
 
-export const Button = () => {
+        <Fragment>
+            <Button className="button1"> Aceptar </Button>
+           
+            <Button className="button2" variant="primary" size="lg" active>
+                Aceptar
+            </Button>{' '} 
 
-    return <button> Aceptar </button>
+           
+            
+        </Fragment>  
+    )
 }
 

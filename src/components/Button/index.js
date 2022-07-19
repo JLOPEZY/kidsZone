@@ -1,1 +1,1 @@
-export {Button} from './Button';
+export {ButtonPrincipal} from './Button';
